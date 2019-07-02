@@ -1,0 +1,95 @@
+body{
+    font-family:'Roboto',  Arial, sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav{
+    color: white;
+}
+
+.nav-items {
+    margin: 17px 30px;
+}
+
+.buttonapp{
+    margin-left: 23px;
+}
+
+.imgnav{
+    margin-left: 12px;
+}
+
+.buttonnav{
+    color: white;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding: 0px 12px;
+    margin-left: 23px;
+    line-height: 28px;
+    border-radius: 2px;
+    font-size: 13px;
+    border: 1px solid #4285f4;
+}
+
+.flexgrid {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{
+    color : inherit;
+    text-decoration: none
+}
+
+.container{
+    display: flex; 
+    height: 40vh;
+    justify-content: center;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background: #eee;
+    padding: 7px;
+    line-height: 10px;
+    font-weight: lighter;
+    color: #6e7375;
+}
+
+.blabla{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    
+    
+    
+}
+
+.blabla2{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: none;
+}
+
+.buttondouble{
+    margin-top: 15px;
+    border-radius: 4px;
+
+}
+.button{
+    color:gray;
+    padding: 10px 16px;
+    border: 1px solid rgb(242, 242, 242);
+    margin: 5px
+}
